@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Football Universe | Takımlar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <meta name="description" content="Website of Football Universe">
+    <meta name="keywords" content="Football, Universe, About, History, Rules, Players, Teams, Clubs, Tournaments, World Cup, UEFA, FIFA">
+    <meta name="author" content="Rauf Kutay Akyıldız">
+    <style>
+    body {
+        margin: 0;
+        }
+    
+    ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(92, 192, 226);
+    }
+    
+    ul.topnav li {
+        float: left;
+    }
+    
+    ul.topnav li a, .dropbtn {
+        display: block;
+        color: blue;
+        text-align: left;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    
+    
+    ul.topnav li a:hover:not(.active), .dropdown:hover .dropbtn {
+        background-color: blue;
+        color:yellow;
+    }
+    
+    ul.topnav li a.active {
+    background-color: green;
+    color:white;
+    }
+    
+    li.dropdown {
+        display: block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: lightblue;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: blue;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    
+    .dropdown-content a:hover {
+    background-color: blue;
+    color:yellow;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    @media screen and (max-width: 600px){
+        img {width:100%;float:none;margin-left:auto;margin-right:auto;}
+        iframe {width:100%;height:300px;margin-left:auto;margin-right:auto;}
+        video {width:100%;height:auto;margin-left:auto;margin-right:auto;}
+        ul.topnav {width:100%;}
+        ul.topnav li {float: none;}
+        ul.topnav li a {text-align:center;}
+        ul.topnav li.dropdown div.dropdown-content {width:100%;}
+        ul.topnav li.dropdown div.dropdown-content a {text-align:center;}
+    }
+    
+    div.container {
+        width: 100%;
+        border: 1px solid gray;
+    }
+    
+    header, footer {
+        padding: 5px;
+        color: rgb(0, 72, 255);
+        background-color: rgb(234, 255, 0);
+        clear: left;
+        text-align: center;
+    }
+    
+    article {
+        margin: 0;
+        padding: 5px;
+        overflow: hidden;
+    }
+    
+    div#textwrap {
+        float:left;
+        margin:5px;
+    }
+    
+    </style>
+</head>
+<body>
+    <ul class="topnav">
+        <li><a href="anasayfa.html">Ana Sayfa</a></li>
+        <li><a href="tarih.html">Genel Tarihçe</a></li>
+        <li class="dropdown">
+          <a href="ligler.html" class="dropbtn active">Ligler &#9662;</a>
+          <div class="dropdown-content">
+            <a href="premierlig.html">Premier League</a><br>
+            <a href="bundesliga.html">Bundesliga</a><br>
+            <a href="seriea.html">Serie A</a>
+            <a href="laliga.html">La Liga</a><br>
+            <a href="ligue1.html">Ligue 1</a><br>
+            <a href="eredivisie.html">Eredivisie</a>
+          </div>
+        </li>
+        <li><a href="contact.html">İletişim</a></li>
+        <li><a href="fixtures.html">Fikstür</a></li>
+        <li><a href="teams.html">Takımlar</a></li>
+        <li><a href="form.html">Form</a></li>
+      </ul>
+    <div class="container">
+        <header>
+            <h1>Süper Lig Takımları</h1>
+        </header>
+        <article>
+            <h2>Türkiye Süper Lig'in 4 Büyük Takımı</h2>    
+            <p style="margin: 20px 0; text-align: justify;">Türk futbolunun en üst düzey profesyonel ligi olan Süper Lig'de, dört büyük takım olarak anılan kulüpler, tarihleri, başarıları ve taraftar kitleleriyle öne çıkmaktadır. Bu kulüpler Türk futbolunun gelişiminde önemli rol oynamış ve uluslararası arenada ülkemizi başarıyla temsil etmişlerdir.</p>
+
+      
+            <div style="display: flex; margin: 20px 0; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+                <div style="flex: 0 0 200px; margin-right: 20px;">
+                    <img src="galatasaraylogo.png" alt="Galatasaray Logo" style="width: 100%; max-width: 200px;">
+                </div>
+                <div style="flex: 1;">
+                    <h3 style="color: #FDB912; margin-top: 0;">Galatasaray</h3>
+                    <p style="text-align: justify;">1905 yılında kurulan Galatasaray, Türk futbolunun en başarılı kulüplerinden biridir. Sarı-kırmızı renklerle özdeşleşen kulüp, 23 Süper Lig şampiyonluğu, 18 Türkiye Kupası ve 1 UEFA Kupası kazanmıştır. Kulüp aynı zamanda Şampiyonlar Ligi'nde düzenli olarak mücadele etmektedir.</p>
+                    <p style="margin-top: 10px;"><strong>Stadyum:</strong> NEF Stadyumu (Seyrantepe, İstanbul)</p>
+                </div>
+            </div>
+
+            <div style="margin-top: 10px;">
+                <<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3006.426796897231!2d28.991043399999995!3d41.103369099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab68279d16fe3%3A0x5f125583ee2cf022!2sAli%20Sami%20Yen%20Spor%20Kompleksi%20RAMS%20Park!5e0!3m2!1str!2str!4v1736828347645!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div style="display: flex; margin: 20px 0; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+                <div style="flex: 0 0 200px; margin-right: 20px;">
+                    <img src="fenerbahçelogo.png" alt="Fenerbahçe Logo" style="width: 100%; max-width: 200px;">
+                </div>
+                <div style="flex: 1;">
+                    <h3 style="color: #001E63; margin-top: 0;">Fenerbahçe</h3>
+                    <p style="text-align: justify;">1907'de kurulan Fenerbahçe, sarı-lacivert renkleriyle tanınan köklü bir kulüptür. 19 Süper Lig şampiyonluğu, 6 Türkiye Kupası bulunan kulüp, Avrupa kupalarında da önemli başarılara imza atmıştır. Kulübün zengin tarihi ve güçlü taraftar desteği bulunmaktadır.</p>
+                    <p style="margin-top: 10px;"><strong>Stadyum:</strong> Ülker Stadyumu (Kadıköy, İstanbul)</p>
+                </div>
+            </div>
+
+            <div style="margin-top: 10px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.717235259264!2d29.0368903!3d40.9876722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab870784d1389%3A0x2bf4921764859e70!2zw5xsa2VyIEZlbmVyYmFow6dlIMWew7xrcsO8IFNhcmFjb8SfbHUgU3RhZHl1bXU!5e0!3m2!1str!2str!4v1736828272292!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div style="display: flex; margin: 20px 0; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+                <div style="flex: 0 0 200px; margin-right: 20px;">
+                    <img src="beşiktaşlogo.png" alt="Beşiktaş Logo" style="width: 100%; max-width: 200px;">
+                </div>
+                <div style="flex: 1;">
+                    <h3 style="color: #000000; margin-top: 0;">Beşiktaş</h3>
+                    <p style="text-align: justify;">1903 yılında kurulan Beşiktaş, siyah-beyaz renkleriyle bilinen Türkiye'nin en eski kulüplerinden biridir. 16 Süper Lig şampiyonluğu ve 10 Türkiye Kupası bulunan kulüp, "Kara Kartallar" lakabıyla anılmaktadır. Kulüp, tutkulu taraftar kitlesiyle tanınır.</p>
+                    <p style="margin-top: 10px;"><strong>Stadyum:</strong> Vodafone Park (Beşiktaş, İstanbul)</p>
+                </div>
+            </div>
+
+            <div style="margin-top: 10px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.3715656117606!2d28.9945064!3d41.0390029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab776f9715eeb%3A0x2cef984e492e1bd8!2zVMO8cHJhxZ8gU3RhZHl1bXU!5e0!3m2!1str!2str!4v1736828471836!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div style="display: flex; margin: 20px 0; padding: 20px; border: 1px solid #ddd; border-radius: 8px;">
+                <div style="flex: 0 0 200px; margin-right: 20px;">
+                    <img src="trabzonlogo.png" alt="Trabzonspor Logo" style="width: 100%; max-width: 200px;">
+                </div>
+                <div style="flex: 1;">
+                    <h3 style="color: #7B1F1F; margin-top: 0;">Trabzonspor</h3>
+                    <p style="text-align: justify;">1967'de kurulan Trabzonspor, bordo-mavi renkleriyle tanınan Anadolu'nun en başarılı kulübüdür. 7 Süper Lig şampiyonluğu ve 9 Türkiye Kupası bulunan kulüp, İstanbul dışından şampiyon olan ilk Anadolu takımı olma özelliğini taşımaktadır.</p>
+                    <p style="margin-top: 10px;"><strong>Stadyum:</strong> Şenol Güneş Spor Kompleksi (Trabzon)</p>
+                </div>
+            </div>
+
+            <div style="margin-top: 10px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.212128891571!2d39.6462728!3d40.998729999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40643fcc08b95e23%3A0x971d73d6e184bdf1!2sPapara%20Park!5e0!3m2!1str!2str!4v1736828589122!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </iframe>
+            </div>
+        </article>
+        <footer>Copyright &copy; Rauf Kutay Akyıldız</footer>
+    </div>
+</body>
+</html>
